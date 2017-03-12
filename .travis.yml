@@ -1,0 +1,8 @@
+language: generic
+
+addons:
+  apt:
+    packages:
+      - shunit2
+
+script: make test
